@@ -216,7 +216,7 @@ class SQLSectionActions implements ISectionActions
     private function showStandardSection($i, $bgcolor, $sectionarray): void
     {
         echo '
-                  <section class="' . $bgcolor . 'page-section" id="' . $sectionarray[$i]->getTitle() . '" style="background-image: url(' . $sectionarray[$i]->getBackground() . ')">
+    <section class="' . $bgcolor . 'page-section" id="' . $sectionarray[$i]->getTitle() . '>
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -224,6 +224,7 @@ class SQLSectionActions implements ISectionActions
           <h3 class="section-subheading text-muted">' . $sectionarray[$i]->getMutedTitle() . '</h3>
         </div>
       </div>
+      <img src="' . $sectionarray[$i]->getBackground() . '" alt="aaa">
       <div class="row" style="display:contents">' . $sectionarray[$i]->getText() . '
 
       </div>
