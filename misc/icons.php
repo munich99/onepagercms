@@ -95,6 +95,11 @@ if(isset($_GET['id'])){
                     >
                 </div>
 
+                <div class="alert alert-info">
+                    Icon you can get here:
+                    <a href="https://fontawesome.com/icons?d=gallery&m=free" target="_blank">Liste der vorhandenen Icons</a>
+                </div>
+
                 <div class="form-group">
                     <label for="description">Amount of Icons:</label>
                     <select class="form-control" id="amound-of-sections"

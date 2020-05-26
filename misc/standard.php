@@ -41,7 +41,7 @@ if(isset($_GET['id'])){
             <h1><?php echo "$headline" ?> Standard-Section</h1>
             <form enctype="multipart/form-data" action="../misc/backgroundupload.php" method="post" id="uploadform">
                 <div class="form-group">
-                    <label for="image-upload">Background:</label>
+                    <label for="image-upload">Image:</label>
                     <input type="hidden" id="id" class="form-control" name="id" readonly
                            value="<?php echo $id ?>">
 
@@ -111,7 +111,7 @@ if(isset($_GET['id'])){
                         <input class="form-check-input" type="checkbox" id="delete-background" value="yes"
                                name="delete-background">
                         <label class="form-check-label" for="delete-background">
-                            Delete Background-Image
+                            Delete Image
                         </label>
                     </div>
                 </div>
